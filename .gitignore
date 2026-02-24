@@ -1,0 +1,13 @@
+# Root-level ignore
+node_modules/
+.DS_Store
+.env
+
+# Frontend-specific
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+
+# Backend-specific
+backend/node_modules/
+backend/.env

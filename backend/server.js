@@ -16,7 +16,7 @@ app.get('/songs/recommendations', (req, res) => {
   res.json({ songs: DISCOVERY_DECK });
 });
 
-// Endpoint to handle the "Swipe Right" (Like)
+// Endpoint to handle the "Swipe Right" (which is a like)
 app.post('/songs/like', (req, res) => {
   const { songId, userId } = req.body;
   console.log(`User ${userId} liked song ${songId}`);

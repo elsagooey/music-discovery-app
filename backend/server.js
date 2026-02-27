@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Mock database of songs for your MVP
+// Mock database of songs 
 const DISCOVERY_DECK = [
   { id: '1', title: 'Starboy', artist: 'The Weeknd', art: 'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79d10de3368c2', preview: 'https://p.scdn.co/mp3-preview/...' },
   { id: '2', title: 'Levitating', artist: 'Dua Lipa', art: 'https://i.scdn.co/image/ab67616d0000b273bd3598e35905d58d975a528a', preview: 'https://p.scdn.co/mp3-preview/...' },

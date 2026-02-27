@@ -9,7 +9,7 @@ export default function App() {
 
   useEffect(() => {
     // Fetch from your backend using the IP address from your terminal
-    fetch('http://10.19.14.192:5001/songs/recommendations')
+    fetch('http://localhost:5001/songs/recommendations')
       .then(res => res.json())
       .then(data => setSongs(data.songs))
       .catch(err => console.log("Fetch error:", err));
